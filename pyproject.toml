@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "resigner"
-version = "0.3.19"
+version = "0.3.20"
 authors = [
     {name = "Media Predict"},
     {email = "engineering@mediapredict.com"}
@@ -13,7 +13,7 @@ description = "Django app that provides a way to simply secure your APIs"
 license = {text = "GPLv3"}
 keywords = ["django", "api", "signed"]
 urls = {homepage = "https://github.com/mediapredict/resigner"}
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = ["django>=4.2", "requests>=2.31"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
